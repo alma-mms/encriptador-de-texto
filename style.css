@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    background-color: whithe;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 0%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__alura {
+    width: 20%;
+    border-radius: 5px;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+.logo {
+
+    width: 20%;
+    height: 10%;
+    border-radius: 25%;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+.contenido {
+    display: flex;
+    align-items: stretch;
+    justify-content: baseline;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0%;
+    gap: 20px;
+
+}
+
+.contenido__texto {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    align-items: center;
+
+
+
+}
+
+.contenido__texto__ingresado {
+    width: 100%;
+    background-color: #7BD3EA;
+    border: none;
+    border-radius: 24px;
+    text-decoration: lowercase;
+    line-height: 48px;
+
+}
+
+::placeholder {
+    color: #000000;
+    font-size: 1rem;
+}
+
+.contenido__texto__ingresado:focus {
+    outline: none;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+}
+
+.informacion__texto {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .5rem;
+    line-height: 150%;
+    opacity: 0.8;
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    gap: 5px;
+
+}
+
+.btn__encriptar {
+    width: auto;
+    background-color: #F6D6D6;
+    font-size: .75rem;
+    cursor: pointer;
+}
+
+
+.btn__desencriptar {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-color: #F6D6D6;
+    font-size: .75rem;
+    cursor: pointer;
+}
+
+.contenido__mensaje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+    margin: 0%;
+    text-align: center;
+    height: auto;
+
+}
+
+.contenido__mensaje__salida {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 50%;
+    margin: auto;
+   
+}
+
+.imgagen1 {
+    background: linear-gradient(pink, 10%, transparent);
+    ;
+}
+
+.texto__uno {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: #0d0d00;
+    background: transparent;
+}
+
+.texto__dos {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: #0d0d00;
+    background: transparent;
+}
+
+.contenido__mensaje__encriptado {
+    display: flex;
+    justify-content: space-between;
+    background-color: linear-gradient(pink, 10%, transparent);
+    position: relative;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    color: #0d0d00;
+    border: none;
+    margin-left: 10%;
+    gap: 5px;
+
+}
+
+.contenido__mensaje__encriptado:focus {
+    outline: none;
+}
+
+.btn__copiar {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    width: 50%;
+    background-color: #F6D6D6;
+    font-size: .75rem;
+    cursor: pointer;
+
+}
+
+.fotter {
+    display: flex;
+    flex-direction: row;
+    background-color: #7BD3EA;
+    align-items: center;
+}
+
+.fotter__parrafo {
+    display: flex;
+    background-color: #7BD3EA;
+    font-size: 1rem;
+    justify-content: center;
+    font-weight: 300px;
+}
+
+.links__redes{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+@media(max-width: 1200px) {
+  *{
+    font-size: medium;
+
+
+  }
+    .header {
+        padding: 3%;
+    }
+
+    .main {
+        justify-content: center;
+    }
+   
+    .botones {
+        width: auto;
+    }
+}
